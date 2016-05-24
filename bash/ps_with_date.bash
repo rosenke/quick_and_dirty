@@ -3,7 +3,7 @@
 # Purpose:	ps_with_date.bash
 # Usage:	ps_with_date.bash
 # Example:	ps_with_date.bash
-# Responsible:	Stephan Rosenke <r01-571@r0s.de
+# Responsible:	Stephan Rosenke <r01-571@r0s.de>
 # License:	CC BY-SA 4.0
 # Version:	2016-05-24
 # Based on:	n/a
