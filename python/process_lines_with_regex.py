@@ -63,6 +63,8 @@ for line in f:
     interim = interim + s[2] + ' ' + s[3] + '\n'
     continue
 
+interim = interim.replace('.', ',')
+
 o = open(output, 'w')
 o.write(interim)
 o.close()
