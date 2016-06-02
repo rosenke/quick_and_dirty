@@ -27,6 +27,8 @@ regex_b = '^.*/usr/sbin/mysqld$'
 """
 * import some modules
 """
+from time import strftime, strptime
+
 import re
 import sys
 
@@ -50,7 +52,9 @@ interim       = ''
 
 for line in f:
   if re.match(regex_a, line):
-    interim = interim + line.rstrip()
+    t = strptime(line.rstrip(), '%a %b %d %H:%M:%S %Z %Y')
+    line = strftime('%Y-%m-%d %H:%M:%S', t)
+    interim = interim + line + ' '
     continue
 
   if re.match(regex_b, line):
