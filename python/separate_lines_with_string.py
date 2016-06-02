@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 """
-Purpose:     separate lines matching a defined string
+Purpose:     separate lines matching a defined string in the first field
 Usage:       separate_lines_with_string.py [file]
 Example:     separate_lines_with_string.py input.txt
 Responsible: Stephan Rosenke <r01-571@r0s.de>
