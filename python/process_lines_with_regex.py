@@ -14,8 +14,9 @@ Based on:    n/a
 * set some user serviceable vars
 """
 output  = 'output.txt'
+#regexe mit re.match haben einen impliziten ^-Anker
 regex_a = '^(Mon|Tue|Wed|Thu|Fri|Sat|Sun) '
-regex_b = '/usr/sbin/mysqld$'
+regex_b = '^.*/usr/sbin/mysqld$'
 
 """
 ********************************************************************************
