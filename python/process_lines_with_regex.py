@@ -58,7 +58,9 @@ for line in f:
     continue
 
   if re.match(regex_b, line):
-    interim = interim + line
+    line = re.sub(' +', ' ', line)
+    s = line.split(' ')
+    interim = interim + s[2] + ' ' + s[3] + '\n'
     continue
 
 o = open(output, 'w')
