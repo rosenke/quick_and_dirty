@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Purpose:	ps_with_date.bash
-# Usage:	ps_with_date.bash
-# Example:	ps_with_date.bash
+# Purpose:	top_with_date.bash
+# Usage:	top_with_date.bash
+# Example:	top_with_date.bash
 # Responsible:	Stephan Rosenke <r01-571@r0s.de>
 # License:	CC BY-SA 4.0
-# Version:	2016-05-24
+# Version:	2016-06-06
 # Based on:	n/a
 
 ################################################################################
