@@ -28,7 +28,7 @@
 unset LANG
 
 date=$(date +%Y-%m-%d)
-file="${HOME}/$(basename ${0})_${date}.txt"
+file="${HOME}/$(basename ${0} .bash)_${date}.txt"
 
 ################################################################################
 # define some functions                                                        #
